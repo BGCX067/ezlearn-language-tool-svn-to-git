@@ -1,0 +1,17 @@
+音標檔預設目錄=D:\Work\JapaneseLanguageLearner\SourceCode\EZLearn_Language_Tool\src\Player\bin\Debug
+目前版本狀態=最新
+音標檔名稱=PhoneticAudio.wma123
+專案網址=http://debut.cis.nctu.edu.tw/~ching/Course/JapaneseLanguageLearner/__page/JapaneseLanguageLearner.htm
+TopMost=True
+是否要線上檢查版本=true
+最近的檢查日期=6/12/2009
+DefaultCommand_Repeat=20
+DefaultCommand_Index=+10
+DefaultCommand_Blank=1
+SectionAutoRepeat=false
+版本號碼=20080308
+Language=English
+RepeatPlay=false
+幾天檢查一次=3
+Player主面版=skin\PlayerSkin_Default.jpg
+語音檔預設目錄=C:\Documents and Settings\Jing\Desktop

@@ -1,0 +1,20 @@
+固定至開始功能表  (Pin the EZLearn to the Start Menu)
+
+Automatic setup
+	-Install: 
+		./EZLearn/01_pin_to_start_menul.bat
+	
+	-Unstall(remove the EZLearn from the menu):
+		./EZLearn/02_unpin_to_start_menul.bat
+	 
+	
+or you can setup by manual as following instructions.
+
+Manual setup
+Chinese 
+Step 1: 先對 EZLearn.exe 建立捷徑
+Step 2: 對該捷徑按右鍵, 選擇 "固定至開始功能表"
+
+English
+Step 1: At first, make a shortcut to the EZLearn.exe
+Step 2: Click your Right mouse button, and then pin it to your Start Menu.

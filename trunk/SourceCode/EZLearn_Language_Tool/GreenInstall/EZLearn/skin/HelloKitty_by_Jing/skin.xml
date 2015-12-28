@@ -1,0 +1,50 @@
+﻿<!-- 
+     EZLearn_Skin_Layout
+     指定 skin 名稱, 程式會自動在執行檔所在的 skin 目錄下建立 CodeName 的目錄, 
+     並且把相關的檔案複製進去 
+-->
+<EZLearn_Skin_Layout CodeName="HellKitty_by_Jing" >
+
+<Author Name="Jing" email="ching@debut.cis.nctu.edu.tw " Web="http://debut.cis.nctu.edu.tw/~ching" />
+
+<!-- 主視窗面版圖形 0,0,255 -->
+<MainWindow Shape="main.bmp" BG_R="0" BG_G="0" BG_B="255" />   
+
+<!-- =====================  一般設定 ========================== -->
+
+<!-- ScrollBar 153,216-->                             
+<Scroll_Bar left="153" top="216" right="214" bottom="226" />
+
+<!-- 秒數 label -->                             
+<TimeLabel x="153" y="175" />
+
+<!-- 狀態顯示 label -->                             
+<StatusLabel x="59" y="228" />
+
+<!-- 檔案名稱 label -->                            
+<FilenameLabel x="60" y="144" />
+
+<!-- 輸入元件 -->                             
+<Input x="90" y="175" width="40" />
+
+<!-- =====================  按鈕設定 ========================== 
+     若沒有指定 按鈕圖形, 則使用系統目前的圖
+     所有按鈕範例 請看 Note1:
+-->
+<PlayPause x="111" y="117" Combo_Play="Combo_Play.bmp" Combo_Pause="Combo_Pause.bmp"/>
+<IndexList x="196" y="122" Normal_Shape="IndexList_N.bmp" Under_Shape="IndexList_U.bmp"/>
+<Close x="166" y="84" Normal_Shape="exitn.bmp" Under_Shape="exitu.bmp" />
+</EZLearn_Skin_Layout >
+
+
+
+
+
+
+
+<!-- Note1 所有按鈕範例
+<Play x="100" y="147" Normal_Shape="bplayn.bmp" Under_Shape="bplayu.bmp" />
+<Pause x="123" y="146" Normal_Shape="bpausen.bmp" Under_Shape="bpauseu.bmp" />
+<IndexList x="205" y="256" Normal_Shape="btn9n.bmp" Under_Shape="btn9u.bmp" />
+<Close x="189" y="2" Normal_Shape="bexitn.bmp" Under_Shape="bexitu.bmp" />
+-->

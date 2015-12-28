@@ -1,0 +1,664 @@
+<!-- MultiLanguage Setup File (多國語言設定檔)
+ 
+    You can add your native language to the EZLearn Helper.
+    你可以加入自己國家慣用的語言到 EZLearn 語言學習機.
+    Ex:
+<LanguageItem Title="Version_Text"
+T_Chinese="版本"
+S_Chinese="版本"
+English="Ver."
+/>
+ 
+    Manual Edit: NotePad.exe (*the saving format, please choose UTF-8).
+-->
+<EZLearn_Multi_Language FileName="Default_Mutilanguage_Data" >
+<Title value="Version_Text" >
+    <Language Name="T_Chinese"          value="版本"    />
+    <Language Name="S_Chinese"          value="版本"    />
+    <Language Name="English"          value="Ver."    />
+</Title>
+
+<Title value="ProgramTitle" >
+    <Language Name="T_Chinese"          value="EZLearn 語言學習機"    />
+    <Language Name="S_Chinese"          value="EZLearn 语言学习机"    />
+    <Language Name="English"          value="EZLearn Language Helper"    />
+</Title>
+
+<Title value="System_Second" >
+    <Language Name="T_Chinese"          value="秒數"    />
+    <Language Name="S_Chinese"          value="秒数"    />
+    <Language Name="English"          value="Sec"    />
+</Title>
+
+<Title value="System_AllStart" >
+    <Language Name="T_Chinese"          value="開始播放"    />
+    <Language Name="S_Chinese"          value="开始播放"    />
+    <Language Name="English"          value="Start Play"    />
+</Title>
+
+<Title value="System_Resume" >
+    <Language Name="T_Chinese"          value="繼續"    />
+    <Language Name="S_Chinese"          value="继续"    />
+    <Language Name="English"          value="Resume"    />
+</Title>
+
+<Title value="System_PauseMessage" >
+    <Language Name="T_Chinese"          value="暫停"    />
+    <Language Name="S_Chinese"          value="暂停"    />
+    <Language Name="English"          value="Pause"    />
+</Title>
+
+<Title value="System_PauseTitle" >
+    <Language Name="T_Chinese"          value="暫停播放"    />
+    <Language Name="S_Chinese"          value="暂停播放"    />
+    <Language Name="English"          value="Pause"    />
+</Title>
+
+<Title value="System_AllStopMessage" >
+    <Language Name="T_Chinese"          value="播放停止"    />
+    <Language Name="S_Chinese"          value="播放停止"    />
+    <Language Name="English"          value="Stop Play"    />
+</Title>
+
+<Title value="System_AllStopTitle" >
+    <Language Name="T_Chinese"          value="語音檔播放停止"    />
+    <Language Name="S_Chinese"          value="语音文件播放停止"    />
+    <Language Name="English"          value="Stop"    />
+</Title>
+
+<Title value="MainMenu_File" >
+    <Language Name="T_Chinese"          value="檔案"    />
+    <Language Name="S_Chinese"          value="档案"    />
+    <Language Name="English"          value="File"    />
+</Title>
+
+<Title value="MainMenu_Open" >
+    <Language Name="T_Chinese"          value="開啟語音檔"    />
+    <Language Name="S_Chinese"          value="开启语音文件"    />
+    <Language Name="English"          value="Open an audio file"    />
+</Title>
+
+<Title value="MainMenu_Close" >
+    <Language Name="T_Chinese"          value="關閉"    />
+    <Language Name="S_Chinese"          value="关闭"    />
+    <Language Name="English"          value="Close"    />
+</Title>
+
+<Title value="MainMenu_Function" >
+    <Language Name="T_Chinese"          value="功能"    />
+    <Language Name="S_Chinese"          value="功能"    />
+    <Language Name="English"          value="Ops"    />
+</Title>
+
+<Title value="On_Line_Dictionary" >
+    <Language Name="T_Chinese"          value="網路字典"    />
+    <Language Name="S_Chinese"          value="网路字典"    />
+    <Language Name="English"          value="On-line Dictionaries"    />
+</Title>
+
+<Title value="Collegite_Dictionary" >
+    <Language Name="T_Chinese"          value="Collegite Dictionary (英英字典 有聲音)"    />
+    <Language Name="S_Chinese"          value="Collegite Dictionary (英英字典 有声音)"    />
+    <Language Name="English"          value="Collegite Dictionary (audio)"    />
+</Title>
+
+<Title value="Chinese_Dictionary" >
+    <Language Name="T_Chinese"          value="國語字典"    />
+    <Language Name="S_Chinese"          value="國語字典"    />
+    <Language Name="English"          value="Chinese Dictionary (Tawian)"    />
+</Title>
+
+<Title value="CAMBRIDGE_Dictionary" >
+    <Language Name="T_Chinese"          value="CAMBRIDGE Dictionary (用字比較簡單)"    />
+    <Language Name="S_Chinese"          value="CAMBRIDGE Dictionary (用字比较简单)"    />
+    <Language Name="English"          value="CAMBRIDGE Dictionary (for Beginner)"    />
+</Title>
+
+<Title value="Add_New_Item" >
+    <Language Name="T_Chinese"          value="(+) 新增項目 ..."    />
+    <Language Name="S_Chinese"          value="(+) 新增项目 ..."    />
+    <Language Name="English"          value="(+) Add a new Dictionar"    />
+</Title>
+
+<Title value="Option" >
+    <Language Name="T_Chinese"          value="選項 ..."    />
+    <Language Name="S_Chinese"          value="选项 ..."    />
+    <Language Name="English"          value="Option ..."    />
+</Title>
+
+<Title value="Always_On_Top_On" >
+    <Language Name="T_Chinese"          value="永遠在最上層 (開啟)"    />
+    <Language Name="S_Chinese"          value="Always on Top (ON)"    />
+    <Language Name="English"          value="Always on Top (ON)"    />
+</Title>
+
+<Title value="Always_On_Top_Off" >
+    <Language Name="T_Chinese"          value="永遠在最上層 (關閉)"    />
+    <Language Name="S_Chinese"          value="Always on Top (OFF)"    />
+    <Language Name="English"          value="Always on Top (OFF)"    />
+</Title>
+
+<Title value="AudioRecorder" >
+    <Language Name="T_Chinese"          value="錄音"    />
+    <Language Name="S_Chinese"          value="录音"    />
+    <Language Name="English"          value="Audio Recorder"    />
+</Title>
+
+<Title value="Lyric_Option" >
+    <Language Name="T_Chinese"          value="字幕選項 ..."    />
+    <Language Name="S_Chinese"          value="字幕选项 ..."    />
+    <Language Name="English"          value="Lyric Option ..."    />
+</Title>
+
+<Title value="Lyric_Function_On_Off" >
+    <Language Name="T_Chinese"          value="顯示/關閉 字幕功能 (預設是開啟)"    />
+    <Language Name="S_Chinese"          value="显示/关闭字幕功能(预设是开启)"    />
+    <Language Name="English"          value="Show/Off Lyric Function"    />
+</Title>
+
+<Title value="Lyric_Function_Show_Next_Text" >
+    <Language Name="T_Chinese"          value="顯示下一句"    />
+    <Language Name="S_Chinese"          value="显示下一句"    />
+    <Language Name="English"          value="Show Next Text"    />
+</Title>
+
+<Title value="Test_Main" >
+    <Language Name="T_Chinese"          value="測驗"    />
+    <Language Name="S_Chinese"          value="测验"    />
+    <Language Name="English"          value="Games"    />
+</Title>
+
+<Title value="Test_Japaness_alphabet" >
+    <Language Name="T_Chinese"          value="日文字母遊戲"    />
+    <Language Name="S_Chinese"          value="日文字母游戏"    />
+    <Language Name="English"          value="Japanese Alphabet Game"    />
+</Title>
+
+<Title value="Test_Japaness_Syllabary" >
+    <Language Name="T_Chinese"          value="日文五十音圖 (漢字對照表)"    />
+    <Language Name="S_Chinese"          value="日文五十音图 (汉字对照表)"    />
+    <Language Name="English"          value="Japaness Syllabary"    />
+</Title>
+
+<Title value="Version_String" >
+    <Language Name="T_Chinese"          value="版本: "    />
+    <Language Name="S_Chinese"          value="版本: "    />
+    <Language Name="English"          value="Ver.  "    />
+</Title>
+
+<Title value="Version_NewVersionMessage" >
+    <Language Name="T_Chinese"          value="EZLearn 已經有新版本了"    />
+    <Language Name="S_Chinese"          value="EZLearn 已经有新版本了"    />
+    <Language Name="English"          value="A new version is released!"    />
+</Title>
+
+<Title value="Version_This_Is_Beta" >
+    <Language Name="T_Chinese"          value="EZLearn (Beta 版本)"    />
+    <Language Name="S_Chinese"          value="EZLearn (Beta 版本)"    />
+    <Language Name="English"          value="EZLearn (Beta)"    />
+</Title>
+
+<Title value="Version_FirewallProglem" >
+    <Language Name="T_Chinese"          value="版本更新檢查, 有問題 (請檢查防火牆) ..."    />
+    <Language Name="S_Chinese"          value="版本更新检查, 有问题(请检查防火墙) ..."    />
+    <Language Name="English"          value="Version Checking has problem. (Please check the firewall setting) ..."    />
+</Title>
+
+<Title value="Version_This_is_new" >
+    <Language Name="T_Chinese"          value="最新版本"    />
+    <Language Name="S_Chinese"          value="最新版本"    />
+    <Language Name="English"          value="This is a new version"    />
+</Title>
+
+<Title value="Version_Update" >
+    <Language Name="T_Chinese"          value="Update"    />
+    <Language Name="S_Chinese"          value="Update"    />
+    <Language Name="English"          value="Update"    />
+</Title>
+
+<Title value="Version_CurrentVersionString" >
+    <Language Name="T_Chinese"          value="目前版本資訊:"    />
+    <Language Name="S_Chinese"          value="目前版本信息:"    />
+    <Language Name="English"          value="Page"    />
+</Title>
+
+<Title value="Version_CheckingWaitingMessage" >
+    <Language Name="T_Chinese"          value="版本檢查中, 請等一下..."    />
+    <Language Name="S_Chinese"          value="版本检查中, 请等一下..."    />
+    <Language Name="English"          value="Please wait (checking the version)"    />
+</Title>
+
+<Title value="Help_String" >
+    <Language Name="T_Chinese"          value="手冊"    />
+    <Language Name="S_Chinese"          value="手冊"    />
+    <Language Name="English"          value="Help"    />
+</Title>
+
+<Title value="Help__1" >
+    <Language Name="T_Chinese"          value="1. 按數字後, 按 Enter 可索引播放位置"    />
+    <Language Name="S_Chinese"          value="1. 按数字后, 按Enter 可索引播放位置"    />
+    <Language Name="English"          value="1. Input the audio index you want to play (ex:32.4)"    />
+</Title>
+
+<Title value="Help__2" >
+    <Language Name="T_Chinese"          value="2. 重複播放 --> 按 [Enter] 鍵 or [Shift] 鍵"    />
+    <Language Name="S_Chinese"          value="2. 重复播放--> 按[Enter] 键 or [Shift] 键"    />
+    <Language Name="English"          value="2. Replay again --> [Enter] or [Shift]"    />
+</Title>
+
+<Title value="Help__3" >
+    <Language Name="T_Chinese"          value="3. 索引之前的語音位置 --> 按 [上/下] 鍵"    />
+    <Language Name="S_Chinese"          value="3. 索引之前的语音位置--> 按[上/下] 键"    />
+    <Language Name="English"          value="3. Replay the last section --> [Up] or [Down]"    />
+</Title>
+
+<Title value="Help__4" >
+    <Language Name="T_Chinese"          value="4. 暫停 --> 按 [Ctrl] 鍵"    />
+    <Language Name="S_Chinese"          value="4. 暂停--> 按[Ctrl] 键"    />
+    <Language Name="English"          value="4. Pause --> [Ctrl]"    />
+</Title>
+
+<Title value="Help__5" >
+    <Language Name="T_Chinese"          value="5. 可直接輸入數字, 不必清除前面的數字"    />
+    <Language Name="S_Chinese"          value="5. 可直接输入数字, 不必清除前面的数字"    />
+    <Language Name="English"          value="5. You can direct input the section command without erasing the previous typing"    />
+</Title>
+
+<Title value="Help__FigureHelp" >
+    <Language Name="T_Chinese"          value="圖解說明"    />
+    <Language Name="S_Chinese"          value="图解说明"    />
+    <Language Name="English"          value="Picture Helper"    />
+</Title>
+
+<Title value="Help__OnLineDocument" >
+    <Language Name="T_Chinese"          value="線上說明"    />
+    <Language Name="S_Chinese"          value="联机帮助"    />
+    <Language Name="English"          value="On-line Document"    />
+</Title>
+
+<Title value="Help__DevelopInfo" >
+    <Language Name="T_Chinese"          value="EZLearn 開發資訊"    />
+    <Language Name="S_Chinese"          value="EZLearn 开发信息"    />
+    <Language Name="English"          value="DevelopInfo"    />
+</Title>
+
+<Title value="Help__OtherProduct_1" >
+    <Language Name="T_Chinese"          value="朗文英英字典輔助工具"    />
+    <Language Name="S_Chinese"          value="朗文英英字典辅助工具"    />
+    <Language Name="English"          value="Longman Dictionary Helper"    />
+</Title>
+
+<Title value="Language__Item" >
+    <Language Name="T_Chinese"          value="語言"    />
+    <Language Name="S_Chinese"          value="语言"    />
+    <Language Name="English"          value="Language"    />
+</Title>
+
+<Title value="Language__TranChinese" >
+    <Language Name="T_Chinese"          value="正體中文"    />
+    <Language Name="S_Chinese"          value="正体中文"    />
+    <Language Name="English"          value="Chinese (Tranditional)"    />
+</Title>
+
+<Title value="Language__SimpleChinese" >
+    <Language Name="T_Chinese"          value="簡體中文"    />
+    <Language Name="S_Chinese"          value="简体中文"    />
+    <Language Name="English"          value="Chinese (Simple)"    />
+</Title>
+
+<Title value="Language__English" >
+    <Language Name="T_Chinese"          value="English"    />
+    <Language Name="S_Chinese"          value="English"    />
+    <Language Name="English"          value="English"    />
+</Title>
+
+<Title value="MainToolTips__Input" >
+    <Language Name="T_Chinese"          value="請輸入索引秒數  (↑上一個索引) (↓下一個索引)
+簡單格式: 起始索引
+例如:  113
+
+擴充格式: 起始 [,結束][,重複次數][,註解]
+例如:
+    113,115,20,讀賣新聞"    />
+    <Language Name="S_Chinese"          value="请输入索引秒数 (↑上一个索引) (↓下一个索引)
+简单格式: 起始索引
+例如:  113
+
+扩充格式: 起始[,结束][,重复次数][,批注]
+例如:
+    113,115,20,读卖新闻"    />
+    <Language Name="English"          value="Input audio index Command  (↑ Previous) (↓ Next)
+1. Start Index
+ex:  113
+
+2. Start [,End][,Repeat Time][,Comment]
+ex:
+    113,115,20,The New York City"    />
+</Title>
+
+<Title value="MainToolTips__Pause" >
+    <Language Name="T_Chinese"          value="暫停"    />
+    <Language Name="S_Chinese"          value="暂停"    />
+    <Language Name="English"          value="Pause"    />
+</Title>
+
+<Title value="MainToolTips__Resume" >
+    <Language Name="T_Chinese"          value="繼續"    />
+    <Language Name="S_Chinese"          value="继续"    />
+    <Language Name="English"          value="Resume"    />
+</Title>
+
+<Title value="MainToolTips__Scroll" >
+    <Language Name="T_Chinese"          value="拖曳滑鼠可直接跳過熟悉語音段落"    />
+    <Language Name="S_Chinese"          value="拖曳鼠标可直接跳过熟悉语音段落"    />
+    <Language Name="English"          value="Scoll the bar, you can skip the audio section"    />
+</Title>
+
+<Title value="MainToolTips__ClearAudioSection" >
+    <Language Name="T_Chinese"          value="清除串列"    />
+    <Language Name="S_Chinese"          value="清除串行"    />
+    <Language Name="English"          value="Clear Section"    />
+</Title>
+
+<Title value="MainToolTips__ClearCurSection" >
+    <Language Name="T_Chinese"          value="移除目前的索引"    />
+    <Language Name="S_Chinese"          value="移除目前的索引"    />
+    <Language Name="English"          value="Clear Current Section"    />
+</Title>
+
+<Title value="MainToolTips__DisplaySectionWindow" >
+    <Language Name="T_Chinese"          value="顯示索引面版"    />
+    <Language Name="S_Chinese"          value="显示索引面版"    />
+    <Language Name="English"          value="Open Information Window"    />
+</Title>
+
+<Title value="Skin_SaveMessage" >
+    <Language Name="T_Chinese"          value="面版更新完成"    />
+    <Language Name="S_Chinese"          value="面版更新完成"    />
+    <Language Name="English"          value="Skin Info Saved!"    />
+</Title>
+
+<Title value="AudioSection_Section_On" >
+    <Language Name="T_Chinese"          value="片段播放 ON"    />
+    <Language Name="S_Chinese"          value="片段播放 ON"    />
+    <Language Name="English"          value="Section Play On"    />
+</Title>
+
+<Title value="AudioSection_Section_Off" >
+    <Language Name="T_Chinese"          value="片段播放 Off"    />
+    <Language Name="S_Chinese"          value="片段播放 Off"    />
+    <Language Name="English"          value="Section Play Off"    />
+</Title>
+
+<Title value="AudioSection_Section_AutoRepeatOn" >
+    <Language Name="T_Chinese"          value="語音片段自動循環  ON"    />
+    <Language Name="S_Chinese"          value="语音片段自动循环 ON"    />
+    <Language Name="English"          value="Section Auto Repeat ON"    />
+</Title>
+
+<Title value="AudioSection_Section_RepeatPlay" >
+    <Language Name="T_Chinese"          value="重複播放"    />
+    <Language Name="S_Chinese"          value="重复播放"    />
+    <Language Name="English"          value="Repeat Play"    />
+</Title>
+
+<Title value="AudioSection_Section_Error_WrongCommand" >
+    <Language Name="T_Chinese"          value="狀態: 錯誤的索引"    />
+    <Language Name="S_Chinese"          value="状态: 错误的索引"    />
+    <Language Name="English"          value="You enter a wrong command"    />
+</Title>
+
+<Title value="AudioSection_Section_IndexMessage" >
+    <Language Name="T_Chinese"          value="索引位置 "    />
+    <Language Name="S_Chinese"          value="索引位置 "    />
+    <Language Name="English"          value="Index to "    />
+</Title>
+
+<Title value="AudioSection_Section_RemovedMessage" >
+    <Language Name="T_Chinese"          value=" 已從串列中移除"    />
+    <Language Name="S_Chinese"          value=" 已从串行中移除"    />
+    <Language Name="English"          value=" was removed"    />
+</Title>
+
+<Title value="AudioSection_Section_DoNotRemoveMessage" >
+    <Language Name="T_Chinese"          value=" 不在串列中, 不動作"    />
+    <Language Name="S_Chinese"          value=" 不在串行中, 不动作"    />
+    <Language Name="English"          value=" does not exist"    />
+</Title>
+
+<Title value="IndexListForm_System_Start" >
+    <Language Name="T_Chinese"          value="起始:"    />
+    <Language Name="S_Chinese"          value="起始:"    />
+    <Language Name="English"          value="Start:"    />
+</Title>
+
+<Title value="IndexListForm_System_End" >
+    <Language Name="T_Chinese"          value="結束:"    />
+    <Language Name="S_Chinese"          value="結束:"    />
+    <Language Name="English"          value="End:"    />
+</Title>
+
+<Title value="IndexListForm_System_ListenAgain" >
+    <Language Name="T_Chinese"          value="再聽一次"    />
+    <Language Name="S_Chinese"          value="再听一次"    />
+    <Language Name="English"          value="Listen Again"    />
+</Title>
+
+<Title value="IndexListForm_Tool_ModifySection" >
+    <Language Name="T_Chinese"          value="修改語音片段 "    />
+    <Language Name="S_Chinese"          value="修改语音片段 "    />
+    <Language Name="English"          value="Modify the Section Command"    />
+</Title>
+
+<Title value="IndexListForm_Tool_SectionAutoRepeat" >
+    <Language Name="T_Chinese"          value="語音片段自動循環 (從第一段開始播放)"    />
+    <Language Name="S_Chinese"          value="语音片段自动循环(从第一段开始播放)"    />
+    <Language Name="English"          value="Audio Section Auto Repeat"    />
+</Title>
+
+<Title value="IndexListForm_Tool_RepeatPlay" >
+    <Language Name="T_Chinese"          value="目前片段無限重複播放"    />
+    <Language Name="S_Chinese"          value="目前片段无限重复播放"    />
+    <Language Name="English"          value="Current Section Repeat Play"    />
+</Title>
+
+<Title value="IndexListForm_Tool_Delete" >
+    <Language Name="T_Chinese"          value="刪除->目前的片段 [Del]"    />
+    <Language Name="S_Chinese"          value="刪除->目前的片段 [Del]"    />
+    <Language Name="English"          value="Delete current Section [Del]"    />
+</Title>
+
+<Title value="IndexListForm_Tool_Sorting" >
+    <Language Name="T_Chinese"          value="排序->語音片段(由小到大)"    />
+    <Language Name="S_Chinese"          value="排序->语音片段(由小到大)"    />
+    <Language Name="English"          value="Sorting the Section"    />
+</Title>
+
+<Title value="IndexListForm_Tool_DeleteAllSection" >
+    <Language Name="T_Chinese"          value="刪除所有的片段"    />
+    <Language Name="S_Chinese"          value="刪除所有的片段"    />
+    <Language Name="English"          value="Delete all Section"    />
+</Title>
+
+<Title value="IndexListForm_Tool_OpenLesteningBombWindow" >
+    <Language Name="T_Chinese"          value="開啟聽力轟炸面版"    />
+    <Language Name="S_Chinese"          value="开启听力轰炸面版"    />
+    <Language Name="English"          value="Open the Listening Bomb Window"    />
+</Title>
+
+<Title value="IndexListForm_Tool_AddnewSection" >
+    <Language Name="T_Chinese"          value="新增->目前的語音片段"    />
+    <Language Name="S_Chinese"          value="新增->目前的语音片段"    />
+    <Language Name="English"          value="Add a new Audio Section"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_Title" >
+    <Language Name="T_Chinese"          value="聽力轟炸面版"    />
+    <Language Name="S_Chinese"          value="听力轰炸面版"    />
+    <Language Name="English"          value="Audio Bombing Window"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_FileLoop" >
+    <Language Name="T_Chinese"          value="目前檔案片段播放完畢, 繼續播放"    />
+    <Language Name="S_Chinese"          value="目前档案片段播放完毕, 继续播放"    />
+    <Language Name="English"          value="Single file Section repeat"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_SectionLoop" >
+    <Language Name="T_Chinese"          value="片段循環"    />
+    <Language Name="S_Chinese"          value="片段循环"    />
+    <Language Name="English"          value="Section Loop"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_FileRepeatMessage" >
+    <Language Name="T_Chinese"          value="目前檔案片段播放完畢, 繼續播放"    />
+    <Language Name="S_Chinese"          value="目前档案档片段播放完毕, 继续播放"    />
+    <Language Name="English"          value="Single File Section Repeat"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_FileLoopOnMessage" >
+    <Language Name="T_Chinese"          value="單一檔案循環 ON"    />
+    <Language Name="S_Chinese"          value="单一档案循环 ON"    />
+    <Language Name="English"          value="Single File Loop ON"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_FileLoopOffMessage" >
+    <Language Name="T_Chinese"          value="單一檔案循環 OFF"    />
+    <Language Name="S_Chinese"          value="单一档案循环 OFF"    />
+    <Language Name="English"          value="Single File Loop OFF"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_OpenEZUFile" >
+    <Language Name="T_Chinese"          value="請指定檔案名稱"    />
+    <Language Name="S_Chinese"          value="请指定文件名"    />
+    <Language Name="English"          value="Open File"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_SaveEZUFile" >
+    <Language Name="T_Chinese"          value="請設定檔案名稱"    />
+    <Language Name="S_Chinese"          value="请设定文件名"    />
+    <Language Name="English"          value="Save"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_XMLError" >
+    <Language Name="T_Chinese"          value="XML 語法檢查錯誤"    />
+    <Language Name="S_Chinese"          value="XML 语法检查错误"    />
+    <Language Name="English"          value="XML Pasing Error"    />
+</Title>
+
+<Title value="LesteningBombWindow_System_SaveOK" >
+    <Language Name="T_Chinese"          value="聽力轟炸面版資訊: 多檔資訊存檔成功"    />
+    <Language Name="S_Chinese"          value="听力轰炸面版信息: 多文件信息存盘成功"    />
+    <Language Name="English"          value="Multi File Information Saved!"    />
+</Title>
+
+<Title value="LesteningBombWindow_Tool_OpenFileList" >
+    <Language Name="T_Chinese"          value="開啟檔案列"    />
+    <Language Name="S_Chinese"          value="开启档案列"    />
+    <Language Name="English"          value="Open the files you want to listen"    />
+</Title>
+
+<Title value="LesteningBombWindow_Tool_SaveFileList" >
+    <Language Name="T_Chinese"          value="儲存目前檔案串列"    />
+    <Language Name="S_Chinese"          value="储存目前档案串行"    />
+    <Language Name="English"          value="Save the files into an configure file"    />
+</Title>
+
+<Title value="LesteningBombWindow_Tool_ClearFileList" >
+    <Language Name="T_Chinese"          value="清除列表"    />
+    <Language Name="S_Chinese"          value="清除列表"    />
+    <Language Name="English"          value="Clear all File"    />
+</Title>
+
+<Title value="Option_Title" >
+    <Language Name="T_Chinese"          value="Option Setting..."    />
+    <Language Name="S_Chinese"          value="Option Setting..."    />
+    <Language Name="English"          value="Option Setting..."    />
+</Title>
+
+<Title value="Option_Generail" >
+    <Language Name="T_Chinese"          value="一般"    />
+    <Language Name="S_Chinese"          value="一般"    />
+    <Language Name="English"          value="General"    />
+</Title>
+
+<Title value="Option_CurDir" >
+    <Language Name="T_Chinese"          value="目前路徑"    />
+    <Language Name="S_Chinese"          value="目前路径"    />
+    <Language Name="English"          value="Current Directory"    />
+</Title>
+
+<Title value="Option_Skin" >
+    <Language Name="T_Chinese"          value="面版"    />
+    <Language Name="S_Chinese"          value="面版"    />
+    <Language Name="English"          value="Skin"    />
+</Title>
+
+<Title value="Option_SkinTheme" >
+    <Language Name="T_Chinese"          value="面版主題"    />
+    <Language Name="S_Chinese"          value="面版主題"    />
+    <Language Name="English"          value="Skins"    />
+</Title>
+
+<Title value="Option_Author" >
+    <Language Name="T_Chinese"          value="作者"    />
+    <Language Name="S_Chinese"          value="作者"    />
+    <Language Name="English"          value="Author"    />
+</Title>
+
+<Title value="Option_Announce" >
+    <Language Name="T_Chinese"          value="基於知識無價的原則, 你可以自由散佈, 重製整個軟體"    />
+    <Language Name="S_Chinese"          value="基于知识无价的原则, 你可以自由散布, 重制整个软件"    />
+    <Language Name="English"          value="This software is created for one who want to speak or listen fluent language. It's free."    />
+</Title>
+
+<Title value="Option_CopyRight" >
+    <Language Name="T_Chinese"          value="版權聲明"    />
+    <Language Name="S_Chinese"          value="版权声明"    />
+    <Language Name="English"          value="Copyright Info"    />
+</Title>
+
+<Title value="Option_Suggestion" >
+    <Language Name="T_Chinese"          value="也歡迎提供功能上的任何建議"    />
+    <Language Name="S_Chinese"          value="也欢迎提供功能上的任何建议"    />
+    <Language Name="English"          value="Any suggestion is welcome !"    />
+</Title>
+
+<Title value="Option_String1" >
+    <Language Name="T_Chinese"          value="這是一個非常陽春的工具, 歡迎大家使用"    />
+    <Language Name="S_Chinese"          value="这是一个非常阳春的工具, 欢迎大家使用"    />
+    <Language Name="English"          value="The EZLearn is a very simple tool for learning language. Wish you enjoy a happy learning day!"    />
+</Title>
+
+<Title value="Option_AuthorName" >
+    <Language Name="T_Chinese"          value="井民全"    />
+    <Language Name="S_Chinese"          value="井民全"    />
+    <Language Name="English"          value="Tomas Jing (井民全)"    />
+</Title>
+
+<Title value="Option_Keyboard_Title" >
+    <Language Name="T_Chinese"          value="鍵盤設定"    />
+    <Language Name="S_Chinese"          value="键盘设定"    />
+    <Language Name="English"          value="Keyboard"    />
+</Title>
+
+<Title value="Option_Keyboard_LeftQIndex" >
+    <Language Name="T_Chinese"          value="Left 向左快速索引"    />
+    <Language Name="S_Chinese"          value="Left 向左快速索引"    />
+    <Language Name="English"          value="Left Quick Index"    />
+</Title>
+
+<Title value="Option_Keyboard_RightQIndex" >
+    <Language Name="T_Chinese"          value="Right 向右快速索引"    />
+    <Language Name="S_Chinese"          value="Right 向右快速索引"    />
+    <Language Name="English"          value="Right Quick Index"    />
+</Title>
+
+<Title value="End" >
+    <Language Name="T_Chinese"          value="結尾標記"    />
+    <Language Name="S_Chinese"          value="结尾标记"    />
+    <Language Name="English"          value="End"    />
+</Title>
+
+</EZLearn_Multi_Language>
+

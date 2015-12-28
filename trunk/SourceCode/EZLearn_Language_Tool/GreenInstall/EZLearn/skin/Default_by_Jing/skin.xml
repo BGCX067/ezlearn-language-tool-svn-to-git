@@ -1,0 +1,49 @@
+﻿<!-- 
+     EZLearn_Skin_Layout
+     指定 skin 名稱, 程式會自動在執行檔所在的 skin 目錄下建立 CodeName 的目錄, 
+     並且把相關的檔案複製進去 
+-->
+<EZLearn_Skin_Layout CodeName="Default_by_Jing" >
+
+<Author Name="Jing" email="ching@debut.cis.nctu.edu.tw " Web="http://debut.cis.nctu.edu.tw/~ching" />
+
+<!-- 主視窗面版圖形  -->
+<MainWindow Shape="PlayerSkin_Default.jpg" NOSHAPE="true"/>   
+
+<!-- =====================  一般設定 ========================== -->
+<!-- 檔案名稱 label -->                            
+<FilenameLabel x="8" y="0" />
+
+<!-- 秒數 label -->                             
+<TimeLabel x="136" y="50" />
+
+<!-- 狀態顯示 label -->                             
+<StatusLabel x="96" y="72" right="296" R="255" G="255" B="255" />
+
+<!-- ScrollBar 153,216-->                             
+<Scroll_Bar left="0" top="88" right="304" bottom="96" />
+
+<!-- 輸入元件 -->                             
+<Input x="104" y="16" width="100" />
+
+<!-- =====================  按鈕設定 ========================== 
+     若沒有指定 按鈕圖形, 則使用系統目前的圖
+     所有按鈕範例 請看 Note1:
+-->
+<PlayPause x="208" y="24" Combo_Play="Combo_Play.jpg" Combo_Pause="Combo_Pause.jpg"/>
+<IndexList x="224" y="24" Normal_Shape="IndexListN.jpg" Under_Shape="IndexListU.jpg" />
+
+</EZLearn_Skin_Layout >
+
+
+
+
+
+
+
+<!-- Note1 所有按鈕範例
+<Play x="100" y="147" Normal_Shape="bplayn.bmp" Under_Shape="bplayu.bmp" />
+<Pause x="123" y="146" Normal_Shape="bpausen.bmp" Under_Shape="bpauseu.bmp" />
+<IndexList x="205" y="256" Normal_Shape="btn9n.bmp" Under_Shape="btn9u.bmp" />
+<Close x="189" y="1" Normal_Shape="bexitn.bmp" Under_Shape="bexitu.bmp" />
+-->

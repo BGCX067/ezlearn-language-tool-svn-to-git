@@ -1,0 +1,36 @@
+﻿<!-- 
+     EZLearn_Skin_Layout
+     指定 skin 名稱, 程式會自動在執行檔所在的 skin 目錄下建立 CodeName 的目錄, 
+     並且把相關的檔案複製進去 
+-->
+<EZLearn_Skin_Layout CodeName="Palm_by_fugenet" >
+
+<Author Name="fugenet" email=" " Web="http://www.extra.hu/gabor80/" />
+
+<!-- 主視窗面版圖形  -->
+<MainWindow Shape="main.bmp" BG_R="255" BG_G="69" BG_B="245" />   
+
+<!-- =====================  一般設定 ========================== -->
+
+<!-- ScrollBar -->                             
+<Scroll_Bar left="42" top="125" right="215" bottom="135" />
+
+<!-- 秒數 label -->                             
+<TimeLabel x="103" y="78" />
+
+<!-- 狀態顯示 label -->                             
+<StatusLabel x="119" y="114" />
+
+<!-- 檔案名稱 label -->                            
+<FilenameLabel x="44" y="46" />
+
+<!-- 輸入元件 -->                             
+<Input x="78" y="187" width="99" />
+
+<!-- =====================  按鈕設定 ========================== -->
+<Play x="100" y="147" Normal_Shape="bplayn.bmp" Under_Shape="bplayu.bmp" Visible="true"/>
+<Pause x="123" y="146" Normal_Shape="bpausen.bmp" Under_Shape="bpauseu.bmp" Visible="true"/>
+<IndexList x="205" y="256" Normal_Shape="btn9n.bmp" Under_Shape="btn9u.bmp" Visible="true"/>
+<Close x="189" y="2" Normal_Shape="bexitn.bmp" Under_Shape="bexitu.bmp" Visible="true"/>
+
+</EZLearn_Skin_Layout >

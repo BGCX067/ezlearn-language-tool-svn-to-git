@@ -1,0 +1,106 @@
+﻿<!-- MultiLanguage Setup File (多國語言設定檔)
+ 
+    You can add your native language to the EZLearn Helper.
+    你可以加入自己國家慣用的語言到 EZLearn 語言學習機.
+    Ex:
+<LanguageItem Title="Version_Text"
+T_Chinese="版本"
+S_Chinese="版本"
+English="Ver."
+/>
+ 
+    Manual Edit: NotePad.exe (*the saving format, please choose UTF-8).
+-->
+
+<EZLearn_Multi_Language FileName="Default_Mutilanguage_Data" >
+<Title value="Version_Text" >
+    <Language Name="T_Chinese"          value="版本"    />
+    <Language Name="S_Chinese"          value="版本"    />
+    <Language Name="English"          value="Ver."    />
+</Title>
+
+<Title value="ProgramTitle" >
+    <Language Name="T_Chinese"          value="EZLearn 語言學習機"    />
+    <Language Name="S_Chinese"          value="EZLearn 语言学习机"    />
+    <Language Name="English"             value="EZLearn LanguageTool"    />
+</Title>
+
+<Title value="On_Line_Dictionary" >
+    <Language Name="T_Chinese"          value="網際網路上的電子字典"    />
+    <Language Name="S_Chinese"          value="网际网路上的电子字典"    />
+    <Language Name="English"          value="On-line Dictionaries"    />
+</Title>
+
+<Title value="Collegite_Dictionary" >
+    <Language Name="T_Chinese"          value="Collegite Dictionary (英英字典 有聲音)"    />
+    <Language Name="S_Chinese"          value="Collegite Dictionary (英英字典 有声音)"    />
+    <Language Name="English"          value="Collegite Dictionary (Audio enabled)"    />
+</Title>
+
+<Title value="Chinese_Dictionary" >
+    <Language Name="T_Chinese"          value="國語字典"    />
+    <Language Name="S_Chinese"          value="国语字典"    />
+    <Language Name="English"          value="Chinese Dictionary (Tawian)"    />
+</Title>
+
+<Title value="CAMBRIDGE_Dictionary" >
+    <Language Name="T_Chinese"          value="CAMBRIDGE Dictionary (用字比較簡單)"    />
+    <Language Name="S_Chinese"          value="CAMBRIDGE Dictionary (用字比较简单)"    />
+    <Language Name="English"          value="CAMBRIDGE Dictionary (for Beginner)"    />
+</Title>
+
+<Title value="Option" >
+    <Language Name="T_Chinese"          value="選項 ..."    />
+    <Language Name="S_Chinese"          value="选项 ..."    />
+    <Language Name="English"          value="Option ..."    />
+</Title>
+
+<Title value="Always_On_Top_On" >
+    <Language Name="T_Chinese"          value="永遠在最上層 (開啟)"    />
+    <Language Name="S_Chinese"          value="永远在最上 (开启)"    />
+    <Language Name="English"          value="Always On Top (On)"    />
+</Title>
+
+<Title value="Lyric_Option" >
+    <Language Name="T_Chinese"          value="字幕選項 ..."    />
+    <Language Name="S_Chinese"          value="字幕选项 ..."    />
+    <Language Name="English"          value="Lyric Option ..."    />
+</Title>
+
+<Title value="Lyric_Function_On_Off" >
+    <Language Name="T_Chinese"          value="顯示/關閉 字幕功能 (預設是開啟)"    />
+    <Language Name="S_Chinese"          value="显示/关闭 字幕功能 (预设是开启)"    />
+    <Language Name="English"          value="Show/Off Lyric Function"    />
+</Title>
+
+<Title value="Lyric_Function_Show_Next_Text" >
+    <Language Name="T_Chinese"          value="顯示下一句"    />
+    <Language Name="S_Chinese"          value="显示下一句"    />
+    <Language Name="English"          value="Show Next Text"    />
+</Title>
+
+<Title value="Test_Main" >
+    <Language Name="T_Chinese"          value="遊戲"    />
+    <Language Name="S_Chinese"          value="游戏"    />
+    <Language Name="English"          value="Games"    />
+</Title>
+
+<Title value="Test_Japaness_alphabet" >
+    <Language Name="T_Chinese"          value="測驗"    />
+    <Language Name="S_Chinese"          value="测验"    />
+    <Language Name="English"          value="Japanese Alphabet Game"    />
+</Title>
+
+<Title value="Test_Japaness_Syllabary" >
+    <Language Name="T_Chinese"          value="日文五十音圖 (漢字對照表)"    />
+    <Language Name="S_Chinese"          value="日文五十音图 (汉字对照表)"    />
+    <Language Name="English"          value="Japaness Syllabary"    />
+</Title>
+
+<Title value="End" >
+    <Language Name="T_Chinese"          value="結尾標記"    />
+    <Language Name="S_Chinese"          value="結尾標記"    />
+    <Language Name="English"          value="End"    />
+</Title>
+
+</EZLearn_Multi_Language>

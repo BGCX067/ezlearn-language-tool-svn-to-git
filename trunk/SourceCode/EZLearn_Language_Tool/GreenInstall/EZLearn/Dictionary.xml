@@ -1,0 +1,15 @@
+<!-- 字典連結設定檔
+ 
+    功能: 你可以加入自己發現的字典
+    格式範例:
+           <MenuItem Title="國語辭典" Address="http://140.111.1.43/"/>
+ 
+    手動編輯工具: NotePad.exe 存檔格式: UTF-8
+-->
+<EZLearn_Dictionary_List CodeName="Default_Dictionary_Data" >
+ 
+<MenuItem Title="Collegite Dictionary (英英字典 有聲音)" Address="http://www.m-w.com/"/>
+<MenuItem Title="CAMBRIDGE Dictionary (英英字典 解釋比較簡單)" Address="http://dictionary.cambridge.org/"/>
+<MenuItem Title="國語辭典" Address="http://140.111.1.43/"/>
+ 
+</EZLearn_Dictionary_List>

@@ -1,0 +1,38 @@
+下午 06:51:09 > [TBassSource: DC-Bass Source] CREATE
+下午 06:51:09 > [TBassSourceStream: Bass Source Stream] CREATE
+下午 06:51:09 > TBCEnumMediaTypes.Create
+下午 06:51:09 > TBCEnumMediaTypes.Destroy
+下午 06:51:09 > Object: Bass Source Stream, msg: Trying to connect Pins :.
+下午 06:51:09 > Object: Bass Source Stream, msg:     <Output>.
+下午 06:51:09 > Object: Bass Source Stream, msg:     <Audio Input pin (rendered)>.
+下午 06:51:09 > Object: Bass Source Stream, msg: Trying media type:.
+下午 06:51:09 > Object: Bass Source Stream, msg:     major type:  {73647561-0000-0010-8000-00AA00389B71}.
+下午 06:51:09 > Object: Bass Source Stream, msg:     sub type  :  {00000000-0000-0000-0000-000000000000}.
+下午 06:51:09 > Object: Bass Source Stream, msg: Major Type: Audio - Sub Type: UnKnown  Format: Unknown.
+下午 06:51:09 > TBCEnumMediaTypes.Create
+下午 06:51:09 > Object: Bass Source Stream, msg: Trying media type:.
+下午 06:51:09 > Object: Bass Source Stream, msg:     major type:  {73647561-0000-0010-8000-00AA00389B71}.
+下午 06:51:09 > Object: Bass Source Stream, msg:     sub type  :  {00000001-0000-0010-8000-00AA00389B71}.
+下午 06:51:09 > Object: Bass Source Stream, msg: Major Type: Audio - Sub Type: PCM Format: WaveFormatEx: PCM, 44100 Hertz, 16 Bits, 2 Channels.
+下午 06:51:09 > TBCEnumMediaTypes.Destroy
+下午 06:51:09 > Object: Bass Source Stream, msg: Connection succeeded.
+下午 06:51:10 > Object: Bass Source Stream, msg: Worker thread initializing.
+下午 06:52:15 > [TBassSource: DC-Bass Source] CREATE
+下午 06:52:15 > [TBassSourceStream: Bass Source Stream] CREATE
+下午 06:52:15 > TBCEnumMediaTypes.Create
+下午 06:52:15 > TBCEnumMediaTypes.Destroy
+下午 06:52:15 > Object: Bass Source Stream, msg: Trying to connect Pins :.
+下午 06:52:15 > Object: Bass Source Stream, msg:     <Output>.
+下午 06:52:15 > Object: Bass Source Stream, msg:     <Audio Input pin (rendered)>.
+下午 06:52:15 > Object: Bass Source Stream, msg: Trying media type:.
+下午 06:52:15 > Object: Bass Source Stream, msg:     major type:  {73647561-0000-0010-8000-00AA00389B71}.
+下午 06:52:15 > Object: Bass Source Stream, msg:     sub type  :  {00000000-0000-0000-0000-000000000000}.
+下午 06:52:15 > Object: Bass Source Stream, msg: Major Type: Audio - Sub Type: UnKnown  Format: Unknown.
+下午 06:52:15 > TBCEnumMediaTypes.Create
+下午 06:52:15 > Object: Bass Source Stream, msg: Trying media type:.
+下午 06:52:15 > Object: Bass Source Stream, msg:     major type:  {73647561-0000-0010-8000-00AA00389B71}.
+下午 06:52:15 > Object: Bass Source Stream, msg:     sub type  :  {00000001-0000-0010-8000-00AA00389B71}.
+下午 06:52:15 > Object: Bass Source Stream, msg: Major Type: Audio - Sub Type: PCM Format: WaveFormatEx: PCM, 44100 Hertz, 16 Bits, 2 Channels.
+下午 06:52:15 > TBCEnumMediaTypes.Destroy
+下午 06:52:15 > Object: Bass Source Stream, msg: Connection succeeded.
+下午 06:52:15 > Object: Bass Source Stream, msg: Worker thread initializing.

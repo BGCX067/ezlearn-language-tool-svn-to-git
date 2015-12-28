@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="EZLearn.exe" version="1.0.0.0" publicKeyToken="68196a7b1def11e4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icon3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EZLearn" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EZLearn.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.DirectX" version="1.0.2902.0" publicKeyToken="31BF3856AD364E35" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.DirectX.AudioVideoPlayback" version="1.0.2902.0" publicKeyToken="31BF3856AD364E35" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.DirectX.Direct3D" version="1.0.2902.0" publicKeyToken="31BF3856AD364E35" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EZLearn.exe" size="667648">
+      <assemblyIdentity name="EZLearn" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>cvev4RMth+ocyIXy2nPPc37UMSg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EZLearn.exe.config" size="296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>chFIVLkPIILKffWBrQAQuhHIF1w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Icon3.ico" size="13446">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wAv1hUs3uuIZREoMawK4BjLc/Pw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WATER\Jing" issuerKeyHash="36015cee1453e3bdf8a9064dfe8c3786f839135f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tQ5u0x4igB4PQ4cojcjf8h0vqE4=</DigestValue></Reference></SignedInfo><SignatureValue>kUQctF5JLpQxJC0aiBcNHQkQu26ZlE4dRBGHTqf+SJBFko6RMY/jin7z++RK3v0RhlcmqVZtkjh3pGHh44/w6FqsK7psDb2INBN8Jk5CBms7wt9inrADZtx01viqD5x12R1GV7XPy1AXgUMOI2U4UIwRJPDTAGUSkwW4e5os25w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xLP6UMT3hQBgiw6mBO7FtoaCw48A7OPn1TZikvRQcY4POvtX3xv6sS5z4x/tERugYvX2UoYEv44NTJN7uPHieGzA2I19fWtQCd7d5hFTbtVVPxYaeN2RXuXEO0gYeQXMPO0lq++m5NHPq/MCxsz3z/UhBnpuqeGBMUiC7RFUats=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4ea82f1df2dfc88d2887430f1e80221ed36e0eb5" Description="" Url=""><as:assemblyIdentity name="EZLearn.exe" version="1.0.0.0" publicKeyToken="68196a7b1def11e4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WATER\Jing</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1TF2dp380Nhthdrvjypgo1B94Kw=</DigestValue></Reference></SignedInfo><SignatureValue>G0RV0Xldbq/jrBvs5V6sgLtkiktEr+EVrD5ITugSW21CjC8oG3HnV091wEJeKm2JsFrryvGOdYHFzKwpj6m2agAIPgafG6OlCtlUS1f/j6Pnq6yREnFWPycuL7k2T8ahGhbHU45tYhGvl5wJBmPGDA5wikn1NM5o+NbvZACvvGk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xLP6UMT3hQBgiw6mBO7FtoaCw48A7OPn1TZikvRQcY4POvtX3xv6sS5z4x/tERugYvX2UoYEv44NTJN7uPHieGzA2I19fWtQCd7d5hFTbtVVPxYaeN2RXuXEO0gYeQXMPO0lq++m5NHPq/MCxsz3z/UhBnpuqeGBMUiC7RFUats=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASagAwIBAgIQrOJ/WTtpVoFL3+S0tQ7AwDAJBgUrDgMCHQUAMB8xHTAbBgNVBAMeFABXAEEAVABFAFIAXABKAGkAbgBnMB4XDTA3MDQxODA2MjUyM1oXDTA4MDQxNzEyMjUyM1owHzEdMBsGA1UEAx4UAFcAQQBUAEUAUgBcAEoAaQBuAGcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMSz+lDE94UAYIsOpgTuxbaGgsOPAOzj59U2YpL0UHGODzr7V98b+rEuc+Mf7REboGL19lKGBL+ODUyTe7jx4nhswNiNfX1rUAne3eYRU27VVT8WGnjdkV7lxDtIGHkFzDztJavvpuTRz6vzAsbM98/1IQZ6bqnhgTFIgu0RVGrbAgMBAAEwCQYFKw4DAh0FAAOBgQB5MI8hlBIQDAoGIdbvrTUg3NL0RUe0s7yvHdw3Fo1Shf0nuX1lldT4iTh+4IISOCTdkBgliUfYgYbI91dnww9hhWW0AMTwROQ9B9vxk1zVjJR10OzR03I4DGnBe1Dp6rEHpABQ3Tj016sZOVhCMFw9xTRZcHvkhsFKqFK2gx8Ewg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
